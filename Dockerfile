@@ -18,6 +18,10 @@
 ######################################################################
 # PY stage that simply does a pip install on our requirements
 ######################################################################
+COPY superset_config.py /app/pythonpath/superset_config.py
+
+
+
 ARG PY_VER=3.8.13
 FROM python:${PY_VER} AS superset-py
 
