@@ -340,7 +340,9 @@ LANGUAGES = {
 # incomplete and not well maintained.
 LANGUAGES = {
     'en': {'flag': 'us', 'name': 'English'},
+    "es": {"flag": "es", "name": "Spanish"},
     "pt_BR": {"flag": "br", "name": "Brazilian Portuguese"},
+
 }
 
 # ---------------------------------------------------
