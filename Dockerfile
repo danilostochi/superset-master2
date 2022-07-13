@@ -18,7 +18,7 @@
 ######################################################################
 # PY stage that simply does a pip install on our requirements
 ######################################################################
-COPY superset_config.py /app/pythonpath/superset_config.py
+# COPY superset_config.py /app/pythonpath/superset_config.py
 
 
 
